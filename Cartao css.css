@@ -1,0 +1,98 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Chewy&family=Creepster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@1,700&family=Chewy&family=Creepster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=Parisienne&display=swap');
+*{margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    }
+
+body{
+ 
+    background-color: #D4E2E2;
+    width: 390px;
+    margin: 0 auto;
+}
+header img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+
+
+}
+header{
+    background-color: whitesmoke;
+    border-top: red 3px solid;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+     
+}
+nav{
+    height: 60px;
+    background-color: red;
+    font-family: 'Anton' , serif;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+nav ul {
+    list-style:none;
+    text-align: center;
+    line-height: 60px;
+    background-color:red ;
+    margin-bottom: 16px;
+    margin-top: 16;
+}
+nav ul li{
+    display: inline-block;
+
+    padding: 2px;
+
+}
+nav ul li:hover{
+background-color:black ;
+}
+nav ul li a {
+ color: black;
+ text-transform: uppercase;
+ font-size: 12px;
+padding-left: 2px;
+padding-right: 2px;
+font-weight: bold;
+color: seashell;
+}
+
+main article{
+    text-align: center;
+
+}
+footer{
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    background-color: whitesmoke;
+    border-bottom: black 3px solid;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    font-family: 'Parisienne', cursive;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.borda {
+ border-left: 3px solid black;
+ border-right: 3px solid rgb(214, 58, 58);   
+ background-color: whitesmoke;
+ font-weight: bold;
+}
+main{
+    padding-top: 16px;
+}
+.texto-nome{
+    font-family: 'Chewy' , cursive;
+    font-size: 25px;
+    text-transform: uppercase;
+}
