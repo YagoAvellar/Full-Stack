@@ -1,0 +1,434 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    width: calc(100vw - 17px);
+    height: 30px;
+    background: rgba(0, 0, 0, 0.2);
+    display: flex;
+    padding: 35px ;
+    position: fixed;
+    box-sizing: border-box;
+    clear: both;
+}
+
+.header a {
+    color: whitesmoke;
+  
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.header-left,.header-right {
+   flex: 1;
+    display: flex;
+}
+.header-left{
+    justify-content: left;
+    align-items: center;
+    cursor: pointer;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+}
+.nav{
+    height: 60px;
+    display: flex;
+   
+}
+.nav ul {
+    display: flex;
+    justify-content: space-around;
+    flex: 1;
+    height: 60px;
+    align-items: center;
+}
+.header-right{
+    align-items: center;
+    justify-content: flex-end;
+  
+  }
+
+  .header-right a {
+      margin-left: 6px;
+      margin-right: 6px;
+      font-size: 20px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  .header-right .btn{
+      background-color: #f2f2f2;
+      color: black;
+      padding: 8px;
+      border-radius: 10px;
+      cursor: pointer;
+  }
+  .content{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+}
+.nome{
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.banner {
+    height: 100vh;
+    background-image: url(./images/banner.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.sobre {
+    height: 100vh;
+    background-image: url(./images/sobre.jpg);
+    background-size: cover;
+    background-position: center;
+    color: aliceblue;
+   display: flex;
+   padding: 120px;
+}
+.sobre .left .perfil img {
+    width: 420px;
+    flex: 1;
+
+
+}
+
+.texto{
+    justify-content: space-around;
+    font-size: 25px;
+    flex: 1;
+    padding-right: 0px;
+    padding-left: 95px;
+    text-align: center;
+    align-items: flex-start;
+    text-align: justify;
+
+}
+
+h1{ align-items:baseline;
+    font-size: 75px;
+
+}
+
+.servicos {
+    height: 100vh;
+    background-image: url(./images/sobre.jpg);
+    background-size: cover;
+    background-position: center;
+    color: aliceblue; 
+    margin: auto;
+    text-align:center;
+  justify-content: space-around;
+    color: white;
+    font-size: 32px;
+    text-transform: uppercase;
+    
+}
+.Projetos
+   {height: 100vh;
+    background-image: url(./images/sobre.jpg);
+    background-size: cover;
+    background-position: center;
+color: azure;
+text-align:center ;
+font-size: 32px;
+ text-transform: uppercase;
+
+}
+
+.Contato
+       {height: 100vh;
+        background-image: url(./images/contato.jpg);
+        background-size: cover;
+        background-position: center;
+       
+       
+    }
+    .conteudo{
+     margin: auto;
+        text-align: left;
+      justify-content: space-around;
+        color: white;
+        font-size: 22px;
+        margin-bottom: 69px;
+        margin-left: 69px;
+        padding-top: 169px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        
+        
+    }
+p{
+        margin: auto;
+        text-align: left;
+      justify-content: space-around;
+        color: white;
+        font-size: 22px;
+        margin-bottom:29px;
+        margin-left: 29px;
+        padding-top: 29px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+    }
+p{
+    box-shadow: inset 0 0 0 0 #54b3d6;
+    color: #54b3d6;
+
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+
+  }
+
+p:hover {
+    box-shadow: inset 580px 0 0 0 #54b3d6;
+    color: white;
+  }
+
+    
+a {
+                box-shadow: inset 0 0 0 0 #54b3d6;
+                color: #54b3d6;
+            
+                transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+            }
+a:hover {
+                box-shadow: inset 580px 0 0 0 #54b3d6;
+                color: white;
+            }
+
+
+
+
+
+ @import url('https://fonts.googleapis.com/css?family=Cairo');
+body {
+  background-color: #010;
+}
+
+.title {
+  font-family: "Cairo";
+  text-align: center;
+  color: rgb(0, 225, 255);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  letter-spacing: 1px;
+  line-height:2
+}
+
+h1 {
+  background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
+  background-size: cover;
+  color: transparent;
+  -moz-background-clip: text;
+  -webkit-background-clip: text;
+  text-transform: uppercase;
+  font-size: 120px;
+  margin: 10px 0;
+}
+
+
+.white-mode {
+  text-decoration: none;
+  padding: 7px 10px;
+  background-color: rgb(13, 245, 245);
+  border-radius: 3px;
+  color: rgb(9, 207, 241);
+  transition: .35s ease-in-out;
+  position: absolute;
+  left: 15px;
+  bottom: 15px;
+  font-family: "Montserrat";
+}
+
+.white-mode:hover {
+  background-color: rgb(0, 255, 21);
+  color: rgb(0, 255, 255);
+}
+
+
+
+/* CSS PROJETOS */
+
+
+.container {
+    top: 60px;
+    left: calc(50% - 300px);
+    display: flex;
+    justify-content: center;
+    background-color: black;
+  }
+  
+  .card {
+    display: flex;
+    height: 280px;
+    width: 200px;
+    background-color: #17141d;
+    border-radius: 10px;
+    box-shadow: -1rem 0 3rem #000;
+  /*   margin-left: -50px; */
+    transition: 0.4s ease-out;
+    position: relative;
+    left: 0px;
+  }
+  
+  .card:not(:first-child) {
+      margin-left: -50px;
+  }
+  
+  .card:hover {
+    transform: translateY(-20px);
+    transition: 0.4s ease-out;
+  }
+  
+  .card:hover ~ .card {
+    position: relative;
+    left: 50px;
+    transition: 0.4s ease-out;
+  }
+  
+  .titulo {
+    color: white;
+    font-weight: 300;
+    position: absolute;
+    left: 20px;
+    top: 15px;
+  }
+  
+  .bar {
+    position: absolute;
+    top: 100px;
+    left: 20px;
+    height: 5px;
+    width: 150px;
+  }
+  
+  .emptybar {
+    background-color: #2e3033;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .filledbar {
+    position: absolute;
+    top: 0px;
+    z-index: 3;
+    width: 0px;
+    height: 100%;
+    background: rgb(0,154,217);
+    background: linear-gradient(90deg, rgba(0,154,217,1) 0%, rgba(217,147,0,1) 65%, rgba(255,186,0,1) 100%);
+    transition: 0.6s ease-out;
+  }
+  
+  .card:hover .filledbar {
+    width: 120px;
+    transition: 0.4s ease-out;
+  }
+  
+  .circle {
+    position: absolute;
+    top: 150px;
+    left: calc(50% - 60px);
+  }
+  
+  .stroke {
+    stroke: white;
+    stroke-dasharray: 360;
+    stroke-dashoffset: 360;
+    transition: 0.6s ease-out;
+  }
+  
+  svg {
+    fill: #17141d;
+    stroke-width: 2px;
+  }
+  
+  .card:hover .stroke {
+    stroke-dashoffset: 100;
+    transition: 0.6s ease-out;
+  }
+
+  .area3{
+      color: azure;
+      justify-content: center;
+      font-size: 32px;
+      text-align: center;
+      background-color: black;
+  }
+
+  /* serviços*/
+  
+
+ 
+
+.main-part{
+
+}
+.cpanel{
+width:32%;
+display: inline-block;
+background-color:#34495E;
+color:#fff;
+margin-top: 50px;
+}
+.icon-part i{
+font-size: 30px;
+padding:10px;
+border:1px solid #fff;
+border-radius:50%;
+margin-top:-25px;
+margin-bottom: 10px;
+background-color:#34495E;
+}
+.icon-part p{
+margin:0px;
+font-size: 20px;
+padding-bottom: 10px;
+}
+.card-content-part{
+background-color: #2F4254;
+padding: 5px 0px;
+}
+.cpanel .card-content-part:hover{
+background-color: #5a5a5a;
+cursor: pointer;
+}
+.card-content-part a{
+color:#fff;
+text-decoration: none;
+}
+.cpanel-green .icon-part,.cpanel-green .icon-part i{
+background-color: #16A085;
+}
+.cpanel-green .card-content-part{
+background-color: #149077;
+}
+.cpanel-orange .icon-part,.cpanel-orange .icon-part i{
+background-color: #F39C12;
+}
+.cpanel-orange .card-content-part{
+background-color: #DA8C10;
+}
+.cpanel-blue .icon-part,.cpanel-blue .icon-part i{
+background-color: #2980B9;
+}
+.cpanel-blue .card-content-part{
+background-color:#2573A6;
+}
+.cpanel-red .icon-part,.cpanel-red .icon-part i{
+background-color:#E74C3C;
+}
+.cpanel-red .card-content-part{
+background-color:#CF4436;
+}
+.cpanel-skyblue .icon-part,.cpanel-skyblue .icon-part i{
+background-color:#8E44AD;
+}
+.cpanel-skyblue .card-content-part{
+background-color:#803D9B;
+}
